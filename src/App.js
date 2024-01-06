@@ -1,13 +1,14 @@
 import './App.css';
+import Navbar from './Navbar'
+import Homepage from './Homepage'
 
-function App() {
-  const title = "Welcome freak!"
-  
+function App() { 
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>{title}</h1>
-      </header>
+      <Navbar />
+      <div className="content">
+        <Homepage />
+      </div>
     </div>
   );
 }
